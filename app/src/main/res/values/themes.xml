@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+<<<<<<< HEAD
     <style name="Theme.LayoutApp" parent="android:Theme.Material.Light.NoActionBar" />
+=======
+    <style name="Theme.LifeCycleDemo" parent="android:Theme.Material.Light.NoActionBar" />
+>>>>>>> 2791ceb2cf679d0bf23d95c13f9a27eb04c87f17
 </resources>
