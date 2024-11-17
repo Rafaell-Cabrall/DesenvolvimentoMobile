@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.ProfileApp" parent="Theme.Material3.DayNight.NoActionBar">
@@ -6,4 +7,14 @@
     </style>
 
     <style name="Theme.ProfileApp" parent="Base.Theme.ProfileApp" />
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<<<<<<< HEAD
+    <style name="Theme.LayoutApp" parent="android:Theme.Material.Light.NoActionBar" />
+=======
+    <style name="Theme.LifeCycleDemo" parent="android:Theme.Material.Light.NoActionBar" />
+>>>>>>> 2791ceb2cf679d0bf23d95c13f9a27eb04c87f17
+>>>>>>> f8836fc1360ab114dcda1e4dbd1e53cd825b36b8
 </resources>

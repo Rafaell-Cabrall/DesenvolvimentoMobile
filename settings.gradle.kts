@@ -19,6 +19,10 @@ dependencyResolutionManagement {
     }
 }
 
+<<<<<<< HEAD
 rootProject.name = "ProfileApp"
 include(":app")
  
+=======
+include(":app")
+>>>>>>> f8836fc1360ab114dcda1e4dbd1e53cd825b36b8

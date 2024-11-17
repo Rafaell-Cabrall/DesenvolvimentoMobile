@@ -1,3 +1,11 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">ProfileApp</string>
+=======
+<<<<<<< HEAD
+    <string name="app_name">LayoutApp</string>
+=======
+    <string name="app_name">LifeCycleDemo</string>
+>>>>>>> 2791ceb2cf679d0bf23d95c13f9a27eb04c87f17
+>>>>>>> f8836fc1360ab114dcda1e4dbd1e53cd825b36b8
 </resources>
