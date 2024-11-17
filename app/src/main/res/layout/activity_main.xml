@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Imagem de Perfil -->
+        <ImageView
+            android:id="@+id/profileImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="Foto de perfil"
+            android:src="@drawable/profileImage"
+            android:layout_weight="1" />
+
+        <!-- Separador -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#CCCCCC"
+            android:layout_weight="0.1" />
+
+        <!-- Descrição do Usuário -->
+        <TextView
+            android:id="@+id/descriptionText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="0dp"
+            android:paddingBottom="0dp"
+            android:text="Descrição breve:"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="?android:attr/textColorPrimary"
+            android:layout_weight="1" />
+
+        <!-- Complemento da Descrição -->
+        <TextView
+            android:id="@+id/nameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="0dp"
+            android:text="Natural de Quixadá CE"
+            android:textSize="16sp"
+            android:layout_weight="1" />
+
+        <!-- Separador -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#CCCCCC"
+            android:layout_weight="0.1" />
+
+        <!-- Emprego Atual -->
+        <TextView
+            android:id="@+id/currentJobText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:paddingTop="8dp"
+            android:paddingBottom="2dp"
+            android:text="Emprego Atual: (Ex: Desenvolvedor Android)"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="?android:attr/textColorPrimary"
+            android:layout_weight="1" />
+
+        <!-- Descrição do Emprego Atual -->
+        <TextView
+            android:id="@+id/jobDescriptionText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="4dp"
+            android:paddingBottom="0dp"
+            android:text="Desenvolvedor de Software no grupo O Boticário"
+            android:textColor="?android:attr/textColorSecondary"
+            android:textSize="16sp"
+            android:layout_weight="1" />
+
+        <!-- Separador -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#CCCCCC"
+            android:layout_weight="0.1" />
+
+        <!-- Layout de Experiências -->
+        <LinearLayout
+            android:id="@+id/experienceLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="16dp"
+            android:layout_weight="2">
+
+            <!-- Título de Experiências Anteriores -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="1dp"
+                android:paddingTop="8dp"
+                android:text="Experiências anteriores:"
+                android:layout_gravity="start"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_weight="1"/>
+
+            <!-- Descrição das Experiências Anteriores -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Solutec, casa do software..."
+                android:textSize="16sp"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
